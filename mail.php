@@ -25,4 +25,6 @@ $headers .= "Return-Path:  <contato@onixrefrigeracao.com.br>\n";
 $headers .= "MIME-Version: 1.0\n";
 
 mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email.
+
+echo "<script> alert('Mensagem enviada!') </script>"
 ?>
